@@ -37,7 +37,7 @@ public class MembersActivity extends AppCompatActivity {
     }
 
     private void fetchMembers(LinearLayout membersLayout) {
-        String url = "http://10.6.40.154:8019/service.asmx/TumKayitlar"; // Web servis URL'i
+        String url = "http://DELETED_IP_and_PORT/service.asmx/TumKayitlar"; // Web servis URL'i
 
         Log.d(TAG, "fetchMembers: URL'ye istek gönderiliyor: " + url);
 
