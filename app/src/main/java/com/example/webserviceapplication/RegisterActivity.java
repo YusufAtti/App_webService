@@ -46,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void sendRegisterRequest(String name, String surname) {
-        String url = "http://10.6.40.154:8019/service.asmx/VeriEkle";  // Web servisin URL'si
+        String url = "http://DELETED_IP_and_PORT/service.asmx/VeriEkle";  // Web servisin URL'si
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
