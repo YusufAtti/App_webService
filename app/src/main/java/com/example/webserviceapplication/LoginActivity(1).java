@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void sendLoginRequest(String username, String password) {
-        String url = "http://10.6.40.154:8019/service.asmx/UserLogin"; // Web servis adresiniz
+        String url = "http://DELETED_IP_and_PORT/service.asmx/UserLogin"; // Web servis adresiniz
 
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
