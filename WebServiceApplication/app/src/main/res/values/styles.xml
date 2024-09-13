@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Love Days Yazı Tipi Stili -->
+    <style name="LoveDaysButtonStyle">
+        <item name="android:fontFamily">@font/love_days_2v7oe</item>
+        <item name="android:textSize">18sp</item> <!-- Metin boyutunu isteğinize göre değiştirebilirsiniz -->
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+
+</resources>
