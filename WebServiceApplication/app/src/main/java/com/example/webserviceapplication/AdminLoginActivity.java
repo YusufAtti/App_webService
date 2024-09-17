@@ -44,7 +44,7 @@ public class AdminLoginActivity extends AppCompatActivity {
 
     // Admin oturumu olup olmadığını kontrol eden fonksiyon
     private void checkAdminSession(String username, String password) {
-        String url = "http://10.6.40.154:8019/service.asmx/IsSessionActive"; // Web servis URL'i
+        String url = "http://ID_portName/service.asmx/IsSessionActive"; // Web servis URL'i
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
@@ -92,7 +92,7 @@ public class AdminLoginActivity extends AppCompatActivity {
 
     // Admin girişi yapmak için web servise istek gönderiyoruz
     private void sendAdminLoginRequest(String username, String password) {
-        String url = "http://10.6.40.154:8019/service.asmx/AdminLogin"; // Web servis URL'i
+        String url = "http://ID_portName/service.asmx/AdminLogin"; // Web servis URL'i
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
