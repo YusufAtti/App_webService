@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void logoutFromServer() {
-        String url = "http://10.6.40.154:8019/service.asmx/AdminLogout"; // Web servis çıkış URL'i
+        String url = "http://ID_portName/service.asmx/AdminLogout"; // Web servis çıkış URL'i
 
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
